@@ -1,0 +1,90 @@
+
+.smallfont{
+font-size: 12px;
+}
+
+.xsmallfont{
+    font-size: 10px;
+    }
+
+
+
+.zoom:hover {
+    transform: scale(1.1); 
+    transition: transform .5s;
+    }
+    
+
+    i:hover{
+        background-color: aqua;
+    }
+
+    .heigh20 {
+      height:20vh;
+    }
+  
+    .heigh7 {
+      height:7vh;
+    }
+
+    /* Meal Project */
+
+    .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+    
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+/* kkkkk */
+.navbar-fixed-left {
+  width: fit-content;
+  position: fixed;
+  top: 0;
+  border-radius: 0;
+  height: 100%;
+  z-index: 999999;
+  }
+
+  .logo{
+    width: 50px;
+}
+  
+ ul{
+  list-style: none;
+ }
+  
+ li{
+  cursor: pointer;
+}
+
+.meal-pic{
+  overflow: hidden;
+}
+.carpet{
+  right: 0px;
+top: 0px;
+background-color: rgba(255,255,255,0.8);
+width:100%;
+bottom: 0px;
+transform: translateY(100%);
+
+}
+
+.meal-pic:hover .carpet{
+      
+        
+      
+  transition: all 1s;
+   transform: translateY(0%);
+  
+} 
+
